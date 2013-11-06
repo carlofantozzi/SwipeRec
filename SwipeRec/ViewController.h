@@ -10,4 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *label;
+
+- (void) restoreText;
+
+- (void) reportVSwipe:(UIGestureRecognizer *)recognizer;
+
 @end
